@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="layout">Layout Exercise</string>
+
+    <string name="name1">brix.bitayo</string>
+    <string name="calculator">Calculator</string>
+    <string name="button_exercise">Button Exercise</string>
+    <string name="score" />
+</resources>

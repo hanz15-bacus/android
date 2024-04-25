@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/mItemChange"
+        android:title="Change" >
+        <menu >
+            <item
+                android:id="@+id/btnColorChanger"
+                android:title="Color Changer" />
+            <item
+                android:id ="@+id/btnShapeChanger"
+                android:title="Shape Changer" />
+            <item
+                android:id ="@+id/btnTextColorChanger"
+                android:title="Text Color Changer" />
+            <item
+                android:id ="@+id/btnVisibility"
+                android:title = "Change Visibility"/>
+            <item
+                android:id ="@+id/btnUpwardMotion"
+                android:title ="Upward Motion"/>
+            <item
+                android:id ="@+id/btnSidewardMotion"
+                android:title ="Sideward Motion"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mItemReset"
+        android:title="Reset" />
+    <item
+        android:id="@+id/mItemExit"
+        android:title="Exit" />
+
+
+</menu>
+

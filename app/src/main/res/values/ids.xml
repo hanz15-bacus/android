@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="close_button" type="id" />
+    <item name="btnReturn" type="id" />
+    <item name="ButtonExerciseActivity" type="id" />
+    <item name="button_exercise" type="id" />
+    <item name="mainLayout" type="id" />
+    <item name="btnClear" type="id" />
+</resources>

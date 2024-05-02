@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     Button btn5;
     Button btn8;
+    Button btn9;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -74,6 +75,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent8 = new Intent(MainActivity.this, MenuExercise.class);
                 startActivity(intent8);
+            }
+        });
+
+        btn9 = (Button)findViewById(R.id.btnOpeningMaps);
+        btn9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent9 = new Intent(MainActivity.this, MapsExercise.class);
+                startActivity(intent9);
             }
         });
     }

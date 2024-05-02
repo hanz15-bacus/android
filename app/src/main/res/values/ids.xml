@@ -6,4 +6,5 @@
     <item name="button_exercise" type="id" />
     <item name="mainLayout" type="id" />
     <item name="btnClear" type="id" />
+    <item name="btnMaps" type="id" />
 </resources>
